@@ -12,4 +12,6 @@
     <referenceContainer name="header.banner">
         <block class="Magento\Framework\View\Element\Template" name="header.banner.block" template="Magento_Theme::html/header-banner.phtml"/>
     </referenceContainer>
+    <move element="form.subscribe" destination="main.content" after="-" />
+    <move element="form.subscribe" destination="page.bottom.container" before="before.body.end" />
 </referenceBlock>
