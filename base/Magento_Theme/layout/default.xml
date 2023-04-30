@@ -6,7 +6,7 @@
     </arguments>
     <referenceContainer name="header.container">
         <container name="header.banner" htmlTag="div" htmlClass="header-banner" before="-">
-            <referenceBlock name="header.banner.block"/>
+            <block class="Magento\Framework\View\Element\Template" name="shipping_policy.free_shipping" template="Magento_Theme::html/free-shipping.phtml" ifconfig="carriers/freeshipping/active"/>
         </container>
     </referenceContainer>
     <referenceContainer name="header.banner">
